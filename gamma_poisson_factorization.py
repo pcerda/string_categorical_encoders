@@ -13,7 +13,7 @@ from sklearn.decomposition.nmf import _beta_divergence
 
 class OnlineGammaPoissonFactorization(BaseEstimator, TransformerMixin):
     """
-    Online Non-negative Matrix Factorization by minimizing the
+    Online Gamma-Poisson Factorization by minimizing the
     Kullback-Leibler divergence.
 
     Parameters
